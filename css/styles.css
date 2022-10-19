@@ -132,10 +132,12 @@ header p{
   grid-column: 2 / 3;
 }
 
+img{
+  width: 100%;
+}
 .about-image, .method-image, .clients-image, .contact-image{
   /*Your code here */
   /* See documentation for mobile view */
-  width: 100%;
   grid-column: 1 / span 3;
   max-height: 500px;
   overflow: hidden;
