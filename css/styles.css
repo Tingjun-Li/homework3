@@ -190,6 +190,10 @@ img{
     grid-template-rows: 70px repeat(5, 400px) 100px;
   }
 
+  .skip a:focus{
+    top: 20px;
+  }
+
   nav{
     background-color: #ddd;
     text-align: right;
